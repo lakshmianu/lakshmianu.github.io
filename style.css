@@ -1228,7 +1228,7 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
   float: left;
   position: relative;
   list-style: none;
-  width: 33.33333333%;
+  width: 100%;
   background-color: #fff;
   height: auto;
   margin: 0;
@@ -1239,7 +1239,7 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
 .portfolio-items ul li:after {
   content:"";
   position:absolute;
-  width:100%; height:100%;
+  width:0%; height:100%;
   top:0; left:0;
   background:rgba(255, 255, 255, 0.2);
 }
@@ -1273,12 +1273,12 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
 
 .portfolio-description h3 {
   font-size: 16px;
-  margin: 22% 0 0;
+  margin: 40% 0 0;
 }
 
 .portfolio-description p {
   letter-spacing: 1px;
-  margin: 1% 0 0;
+  margin: 5% 0 0;
 }
 
 .portfolio-description h3, .portfolio-description p {
@@ -1306,6 +1306,7 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
   -ms-transform: scale(1,1);
   -o-transform: scale(1,1);
   transform: scale(1,1);
+  font-size: 19px;
 }
 
 .quotes {
